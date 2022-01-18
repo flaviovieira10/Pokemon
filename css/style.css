@@ -2,6 +2,10 @@
     background-color: #00FF7F;
 }
 
+.imagem-principal {
+    text-align: center;
+}
+
 /* --------------------botao carrega-------------------------- */
 .button-louding {
     text-align: center;
@@ -17,23 +21,12 @@
 }
 /* ---------------------CARD----------------------------------------- */
 
-img {
-    justify-content: center; 
-}
-
-.card-novo {
-    padding-top: 50px;
-    display: grid;
-    grid-template-columns: 100px 100px ;
-    
- }
-
 
 .img-cards {
     height: 180px;
     width: 180px;
     filter: grayscale(100%);
-    margin-left: 100px;
+    margin-left: 20%;
     
 }
 
@@ -48,4 +41,77 @@ img {
     transition-duration: 0.8s;
 }
 
+
+.normal {
+    background-color: rgb(230, 216, 211);
+    color: black;
+}
+.water {
+    background-color: dodgerblue;
+    color: black;
+}
+.grass  {
+    background-color: darkgreen;
+    color: black;
+}
+.flying  {
+    background-color: lightskyblue;
+    color: black;
+}
+.fighting {
+    background-color: rgb(255, 0, 64);
+    color: black;
+}
+.poison {
+    background-color: mediumorchid;
+    color: black;
+}
+.electric {
+    background-color: yellow;
+    color: black;
+}
+.ground {
+    background-color: sienna;
+    color: black;
+}
+.rock {
+    background-color: lightslategrey;
+    color: black;
+}
+.psychic {
+    background-color: mediumvioletred;
+    color: black;
+}
+.ice {
+    background-color: rgb(0, 183, 255);
+    color: black;
+}
+.bug {
+    background-color: rgb(157, 255, 0);
+    color: black;
+}
+.ghost {
+    background-color: rgb(183, 0, 255);
+    color: black;
+}
+.steel {
+    background-color: rgb(0, 119, 255);
+    color: black;
+}
+.dragon {
+    background-color: rgb(4, 0, 255);
+    color: black;
+}
+.dark {
+    background-color: rgb(207, 221, 217);
+    color: black;
+}
+.fairy {
+    background-color: rgb(187, 56, 100);
+    color: black;
+}
+.fire {
+    background-color: orangered;
+    color: black;
+}
 
