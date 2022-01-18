@@ -1,0 +1,51 @@
+.body {
+    background-color: #00FF7F;
+}
+
+/* --------------------botao carrega-------------------------- */
+.button-louding {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.botao-carrega {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+    border: none;
+}
+/* ---------------------CARD----------------------------------------- */
+
+img {
+    justify-content: center; 
+}
+
+.card-novo {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 100px 100px ;
+    
+ }
+
+
+.img-cards {
+    height: 180px;
+    width: 180px;
+    filter: grayscale(100%);
+    margin-left: 100px;
+    
+}
+
+.img-cards:hover {
+    filter:grayscale(0) ;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+     transform: scale(1.2);
+     max-width: 200px;
+     width: 100%;
+    transform:  rotate(720deg);
+    transition-duration: 0.8s;
+}
+
+
